@@ -1,0 +1,69 @@
+git status
+
+git init      ///////// insilize the diretory
+
+git add --a     /////////// to add all files in staging area.
+git add filename.txt     /////////// to add single file in staging area.
+
+
+
+git restore --staged name.txt   ///// to remove from staing area.
+
+
+git commit -m "add comments"          /////// to commite and add a msg in double codes.
+
+
+git log                   //////////to check the commite history
+git log --stat         /// it will show all the commit in short details.
+git log --pretty=short
+
+
+git reset fkwpi809437934v59n984vm9353495438085mcc00    //// to restore the privious change using #id.
+
+git stash
+git stash clear
+
+git diff    compare staging area from working directory.
+
+git diff  --staged   
+
+
+git remote add origin http://github.com/xyz/sd.git         // to add github remote repository.
+
+git remote -v   ////to check how many URL's are connected to current repo. 
+
+
+git commit -a -m   "AddComments"      /// its use to directly commit.   
+
+
+git rm   first.txt   ////// to remove file.
+
+git mv   first.txt  newFirst.txt     //// we use move command to rename the file
+
+git rm --cached  file.txt        //// it is use to untracked the file.  It will not delete the file.
+
+
+        
+
+
+
+
+
+
+
+
+
+
+=============git ignore============  ---->imp
+Create .gitignore file.
+#touch .gitignore   /// file created.
+
+write the file name  in .gitignore file which we have to ignore(not need to track)
+
+===============================================
+
+git clone https://github.com/pandas-dev/pandas-stubs.git Filename      /// it wil clone all the file from github.
+
+
+
+
