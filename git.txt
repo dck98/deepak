@@ -16,6 +16,8 @@ git commit -m "add comments"          /////// to commite and add a msg in double
 git log                   //////////to check the commite history
 git log --stat         /// it will show all the commit in short details.
 git log --pretty=short
+git log -p -1     //// to check the nos of commits -1 it show one commit -2 it show 2 commits
+
 
 
 git reset fkwpi809437934v59n984vm9353495438085mcc00    //// to restore the privious change using #id.
@@ -54,16 +56,21 @@ git rm --cached  file.txt        //// it is use to untracked the file.  It will 
 
 
 
-=============git ignore============  ---->imp
+=============git ignore========================  ---->imp
 Create .gitignore file.
 #touch .gitignore   /// file created.
 
 write the file name  in .gitignore file which we have to ignore(not need to track)
-
-===============================================
+***********************************************
 
 git clone https://github.com/pandas-dev/pandas-stubs.git Filename      /// it wil clone all the file from github.
 
+================git restore file=========================
 
+git checkout -- File_Name        /// it will restore to previous commits
+
+git checkout -f      ///(Alert Note):- Its will restore all changes to previous commits.
+
+*********************************************************
 
 
