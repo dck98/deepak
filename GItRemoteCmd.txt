@@ -1,0 +1,12 @@
+
+
+git remote add origin https://github.com/dck98/deepak.git
+
+ssh-keygen -t rsa -b 4096 -C "deepakprajapati9080@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+tail ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC7jWi9kfMgcC7s4mjfMa+6JUu/F0eMSLn1WiTIVw6N3vT5/QHEs9nEO/VBYf118qkIIQ5DB6sg0p4P4qcRUoHA5s6McOLqpDcT7thLCNGOn79ObXJFhvzHdm/WEYQxMfCejsG6gfA6SHEq2juGQPj+cAiXCUfORKuOy3etrqNVsXNWSsRss8Hdmt4bEUnOaeWbPIJVRys5AMVfuWN4ekJxK0wGZXeHAherfX0M68JoAipln2VK9kEQO17LIryJyTxQ21PyNaxA+cQc5qULYejKvPBbCRvjZdsn/ta0jsQ03nR0v9L/ggrZcxLXivWNNxuhDWUdOs4FY4M5h+f4x4fbRV8PLZTgDx0ATSNLoQcf4TVIGcUjSIoF+FtNmD1Ti/OQnhP3//cc0chruUrnnizO/G+rmGcMCZ9FmuDljv9VOrH+6xGeGV9PikDRDrmtoNyj/3sugGdQvHVXeFk7fXQlLGA+oPLc0y2/9Z8wVJY+nXMvz3ViPfhnbzWrg0rLk56onIF6rGfROLe7VEdQueMmosj4kjMwChOYFb4mysY0daEFsPhA7fdF4eg3VX27vNV1Ce2XAyUgYZ0/azqVy3fS/nZQSrsd/b2gTtPPuZk6wsgR3lXxclVgovw2apj2fvWaIkKOveZFKbDK8q8vPKeWZugzH/4bPCDz19/Tamy5Uw== deepakprajapati9080@gmail.com
